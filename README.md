@@ -12,14 +12,14 @@ A hands-on REST API testing practice project using **Postman** and the **JSONPla
 
 ## Objectives
 
-- Understand and practise HTTP methods.
+- Understand and practice HTTP methods.
 - Send API requests using Postman.
 - Work with API endpoints and query parameters.
 - Configure request headers.
 - Examine JSON response bodies.
 - Verify HTTP status codes and API responses.
 
-## HTTP Methods Practised
+## HTTP Methods Practiced
 
 | HTTP Method | Description | Endpoint |
 |---|---|---|
@@ -32,10 +32,10 @@ A hands-on REST API testing practice project using **Postman** and the **JSONPla
 ## Additional API Testing Concepts
 
 ### 1. Request Headers
-Practised configuring and working with HTTP request headers in Postman.
+Practiced configuring and working with HTTP request headers in Postman.
 
 ### 2. Query Parameters
-Practised filtering API resources using query parameters.
+Practiced filtering API resources using query parameters.
 
 Example:
 
