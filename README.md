@@ -1,8 +1,3 @@
-# Postman-API-Testing-Practice
-A beginner-friendly API testing practice repository demonstrating HTTP methods, REST API requests, response validation, and API testing using Postman.
-
-
-
 # Postman API Testing Practice
 
 A hands-on REST API testing practice project using **Postman** and the **JSONPlaceholder** public REST API. This repository documents my practical learning of HTTP methods, API requests, headers, query parameters, and response validation.
