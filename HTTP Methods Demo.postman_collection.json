@@ -1,0 +1,172 @@
+{
+  "info": {
+    "_postman_id": "1709fab1-ea21-4790-a660-3352796b2655",
+    "name": "HTTP Methods Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45213605",
+    "_collection_link": "https://go.postman.co/collection/45213605-1709fab1-ea21-4790-a660-3352796b2655?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/11",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "11"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"userId\": 11,\r\n    \"title\": \"Learning HTTP Methods\",\r\n    \"body\": \"Understanding http methods\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT Request",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"userId\": 11,\r\n    \"title\": \"Learning HTTP Methods Again\",\r\n    \"body\": \"Understanding http methods update\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/11",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "11"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "UPDATE Request",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \r\n    \"title\": \"Learning HTTP Methods New Updates\"\r\n    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/11",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "11"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE Request",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts/11",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts",
+            "11"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "QueryParameter Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/posts?userID=1&title=sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "posts"
+          ],
+          "query": [
+            {
+              "key": "userID",
+              "value": "1"
+            },
+            {
+              "key": "title",
+              "value": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
